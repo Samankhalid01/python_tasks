@@ -7,8 +7,7 @@ import sys
 model = MobileNetV2(weights='imagenet')
 print("Model loaded successfully!")
 
-model = MobileNetV2(weights='imagenet')
-print("Model loaded successfully!")
+
 def load_and_preprocess(img_path):
     img = image.load_img(img_path, target_size=(224, 224))  
     img_array = image.img_to_array(img)                     
