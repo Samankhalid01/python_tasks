@@ -1,0 +1,33 @@
+Column: Id
+  Mean: 75.5
+  Min: 1
+  Max: 150
+  Count: 150
+
+Column: SepalLengthCm
+  Mean: 5.843333333333334
+  Min: 4.3
+  Max: 7.9
+  Count: 150
+
+Column: SepalWidthCm
+  Mean: 3.0540000000000003
+  Min: 2.0
+  Max: 4.4
+  Count: 150
+
+Column: PetalLengthCm
+  Mean: 3.758666666666666
+  Min: 1.0
+  Max: 6.9
+  Count: 150
+
+Column: PetalWidthCm
+  Mean: 1.1986666666666668
+  Min: 0.1
+  Max: 2.5
+  Count: 150
+
+Column: Species
+  Most frequent category: Iris-setosa
+
