@@ -5,7 +5,7 @@ responses = {
     "how are you": ["I'm just a bot, but I’m doing great!", "I’m fine, thanks for asking!", "Doing well! How about you?"],
     "weather": ["I can’t check live weather yet, but I love sunny days!", "Weather is always nice in my virtual world!", "I hope it’s sunny where you are!"],
     "bye": ["Goodbye! Have a great day!", "See you later!", "Bye! Take care!"]
-}
+}#creating a simple dictionary of responses for the chatbot
 print("Welcome to SimpleChatBot! Type 'exit' to quit.")
 
 while True:
@@ -19,8 +19,8 @@ while True:
 
   
     for key in responses:
-        if key in user_input:
-            print("Bot:", random.choice(responses[key])) 
+        if key in user_input:#checking if any key from responses is present in user input
+            print("Bot:", random.choice(responses[key])) #if found then randomly choose one response from the list of responses for that key
             response_found = True
             break
 
